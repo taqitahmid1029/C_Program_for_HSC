@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main()
+{
+    float a, b, area;
+    printf("enter 2 diagonals of a rhombus: ");
+    scanf("%f %f", &a, &b);
+    area=(a*b)/2;
+    printf("area of the rhombus is %.2f", area);
+    return 0;
+}
