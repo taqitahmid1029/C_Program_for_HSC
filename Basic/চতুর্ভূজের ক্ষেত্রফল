@@ -3,9 +3,9 @@
 int main()
 {
     float l, w, area;
-    printf("enter length and width of a rectangle: ");
+    printf("Enter length and width: ");
     scanf("%f %f", &l, &w);
     area=l*w;
-    printf("area of the rectangle is %.2f", area);
+    printf("Area of the rectangle is %.2f", area);
     return 0;
 }
