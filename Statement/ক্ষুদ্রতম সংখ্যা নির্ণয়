@@ -6,7 +6,7 @@ int main()
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
     if(a<b)
-        printf("%d is smallest numner", a);
+        printf("%d is smallest number", a);
     else
         printf("%d is smallest number", b);
     return 0;
