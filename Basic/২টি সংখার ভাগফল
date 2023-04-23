@@ -2,9 +2,9 @@
 
 int main() {
     float a, b, div;
-    printf("enter values: ");
+    printf("Enter values: ");
     scanf("%f %f", &a, &b);
     div=a/b;
-    printf("result is %f", div);
+    printf("Division is %f", div);
     return 0;
 }
