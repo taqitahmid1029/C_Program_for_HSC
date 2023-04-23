@@ -3,9 +3,9 @@
 int main()
 {
     float C, K;
-    printf("enter celcius temperature: ");
+    printf("Enter Celcius temperature: ");
     scanf("%f", &C);
     K=C+273;
-    printf("kalvin temperature is %.2f", K);
+    printf("Kalvin temperature is %.2f", K);
     return 0;
 }
