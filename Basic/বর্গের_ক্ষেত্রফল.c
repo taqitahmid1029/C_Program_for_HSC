@@ -4,7 +4,7 @@
 int main()
 {
     float a, area;
-    printf("Enter side of a square: ");
+    printf("Enter side: ");
     scanf("%f", &a);
     area=pow(a, 2);
     printf("Area of the square is %.2f", area);
