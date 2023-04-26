@@ -2,7 +2,7 @@
 
 int main() {
     float a, b, div;
-    printf("Enter values: ");
+    printf("Enter 2 integers: ");
     scanf("%f %f", &a, &b);
     div=a/b;
     printf("Division is %f", div);
