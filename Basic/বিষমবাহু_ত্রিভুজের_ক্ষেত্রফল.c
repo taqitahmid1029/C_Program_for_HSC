@@ -3,7 +3,7 @@
 
 int main() {
     float a, b, c, s, area;
-    printf("Enter 3 sides and base: ");
+    printf("Enter 3 sides: ");
     scanf("%f %f %f", &a, &b, &c);
     s=(a+b+c)/2;
     area=sqrt(s*(s-a)*(s-b)*(s-c));
