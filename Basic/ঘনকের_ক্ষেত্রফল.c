@@ -5,6 +5,6 @@ int main() {
     printf("Enter side: ");
     scanf("%f", &a);
     area=6*a*a;
-    printf("Area is %.2f", area);
+    printf("Area of cube is %.2f", area);
     return 0;
 }
