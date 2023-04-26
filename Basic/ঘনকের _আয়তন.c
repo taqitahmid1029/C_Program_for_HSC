@@ -5,6 +5,6 @@ int main() {
     printf("Enter side: ");
     scanf("%f", &a);
     volume=a*a*a;
-    printf("Volume is %.2f", volume);
+    printf("Volume of cube is %.2f", volume);
     return 0;
 }
