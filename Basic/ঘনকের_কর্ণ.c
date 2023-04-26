@@ -6,6 +6,6 @@ int main() {
     printf("Enter side: ");
     scanf("%f", &a);
     l=a*sqrt(3);
-    printf("Corner is %.2f", l);
+    printf("Corner of cube is %.2f", l);
     return 0;
 }
