@@ -6,6 +6,6 @@ int main() {
     printf("Enter equal side and base: ");
     scanf("%f %f", &a, &b);
     area=(b/4)*sqrt(4*a*a-b*b);
-    printf("Area is %.2f", area);
+    printf("Area of isosceles triangle is %.2f", area);
     return 0;
 }
