@@ -1,12 +1,11 @@
 #include<stdio.h>
 #include<math.h>
-#define pi=3.1416
 
 int main() {
     float r, area;
     printf("Enter radius: ");
     scanf("%f", &r);
-    area=pi*pow(r,2);
+    area=3.1416*pow(r,2);
     printf("Area is %.2f", area);
     return 0;
 }
