@@ -3,7 +3,7 @@
 int main()
 {
     int a, b, mul;
-    printf("Enter values: ");
+    printf("Enter 2 integers: ");
     scanf("%d %d", &a, &b);
     mul=a*b;
     printf("Multiplication is %d", mul);
