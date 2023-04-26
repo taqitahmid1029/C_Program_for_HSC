@@ -3,7 +3,7 @@
 int main()
 {
     int n, i, sum=0;
-    printf("Enter lasth number: ");
+    printf("Enter last number: ");
     scanf("%d", &n);
     for (i = 5; i <= n; i = i + 5)
     {
