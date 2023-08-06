@@ -9,7 +9,7 @@ int main()
         printf("%d is smallest number", a);
     }
     else if (b<a && b<c) {
-		printf("%d is smallest number", b);
+	printf("%d is smallest number", b);
     }
     else {
         printf("%d is smallest number", c);
